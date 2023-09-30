@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,700&family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.jpg')}}" >
+    <link rel="stylesheet" type = "text/css" href = " {{ url_for('static' , filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container"> 
+            <section class="logo">
+                <a href="#"><span class="tile-header">product</span><span class="after-title">r</span></a>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class = form-class>
+        <form action= "index">
+            <label for="product">Product  </label>
+            <input type="text" id="product" name="product" > 
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>

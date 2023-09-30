@@ -1,0 +1,1 @@
+# A simple flask app which scrapes data from the flipkart site using beautifulsoup and lists the products.
